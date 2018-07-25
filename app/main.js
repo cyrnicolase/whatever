@@ -99,7 +99,8 @@ function createWindow () {
                                  })
 
   //load the url
-  mainWindow.loadURL('https://www.evernote.com/Home.action')
+  // mainWindow.loadURL('https://www.evernote.com/Home.action')
+  mainWindow.loadURL('https://app.yinxiang.com/Home.action')
   
   //hide the default menu
   mainWindow.setMenu(null)
@@ -137,7 +138,8 @@ function openSettings () {
     settingsWindow = new BrowserWindow({width: 700, 
                                   height: 550, 
                                   webPreferences: {nodeIntegration: false}})
-    settingsWindow.loadURL('https://www.evernote.com/Settings.action')
+    // settingsWindow.loadURL('https://www.evernote.com/Settings.action')
+    settingsWindow.loadURL('https://app.yinxiang.com/Settings.action')
     
     settingsWindow.on('page-title-updated', event => {
         event.preventDefault()

@@ -26,5 +26,11 @@
     "nconf": "^0.8.4",
     "node-config": "0.0.2",
     "spinkit": "^1.2.5"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.1",
+    "nconf": "^0.8.4",
+    "node-config": "0.0.2",
+    "spinkit": "^1.2.5"
   }
 }
