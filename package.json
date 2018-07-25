@@ -1,0 +1,27 @@
+{
+  "build": {
+    "appId": "whatever"
+  },
+  "repository": "https://github.com/CellarD0-0r/whatever",
+  "license": "MIT",
+  "description": "An unofficial Evernote client for Linux desktop",
+  "scripts": {
+    "preinstall": "node -e 'process.exit(0)'",
+    "postinstall": "install-app-deps",
+    "start": "electron ./app",
+    "dev": "NODE_ENV='development' npm run start",
+    "dist": "build --linux deb rpm tar.gz tar.xz --ia32 --x64"
+  },
+  "devDependencies": {
+    "app-module-path": "^2.2.0",
+    "auto-launch": "^5.0.1",
+    "electron": "^1.4.15",
+    "electron-builder": "^11.7.0",
+    "electron-packager": "^8.5.0",
+    "electron-prebuilt": "^1.4.13",
+    "electron-rebuild": "^1.5.7",
+    "jquery": "^3.1.1",
+    "nconf": "^0.8.4",
+    "spinkit": "^1.2.5"
+  }
+}
