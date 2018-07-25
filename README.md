@@ -27,3 +27,5 @@
     <h1>Note</h1>
     <p>This software is 100% free, non-commercial, independent and unofficial. It is <b>not</b> supported by Evernote&copy; Corporation or any other commercial organization.</p>
 </div>
+
+原始仓库地址 :  https://github.com/cellardoor42/whatever
